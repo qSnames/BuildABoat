@@ -67,14 +67,14 @@ workspace.ItemBoughtFromShop:InvokeServer("Common Chest", 1)
 
     end
 })
-
+OrionLib:Init()
 
 local Tab = Window:MakeTab({
     Name = "Reset",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
-Tab
+
 
 Tab:AddButton({
     Name = "ResetCharacter",
@@ -84,6 +84,7 @@ game:GetService("StarterGui")ConfusedetCore("ResetButtonCallback", true)
 
     end
 })
+OrionLib:Init()
 
 local Tab = Window:MakeTab({
     Name = "Graphic",
@@ -134,22 +135,11 @@ color.Saturation = 0.2
 color.TintColor = Color3.fromRGB(255,252,224)
  end
 })
+OrionLib:Init()
 
 local Tab = Window:MakeTab({
     Name = "AutoSkiper",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
-Tab
-Tab:AddButton({
-    Name = "Collectscreen",
-    Callback = function()
 
-while true do
-2	    workspace.ClaimRiverResultsGold:FireServer()
-3	    wait()
-4	end
-
-
- end
-})
