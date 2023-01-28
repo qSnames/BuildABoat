@@ -11,7 +11,7 @@ Tab:AddButton({
 
 pcall(function()
     repeat wait() until game:IsLoaded()
-    loadstring(game:HttpGet("loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua"))()
 end)
 
       end
