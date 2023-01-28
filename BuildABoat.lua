@@ -143,7 +143,7 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 
 Tab:AddButton({
-    Name = "FakeRtx",
+    Name = "SKipper end",
     Callback = function()
 
 while wait() do
