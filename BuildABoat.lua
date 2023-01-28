@@ -152,4 +152,4 @@ while wait() do
 
 
 })
-
+OrionLib:Init()
