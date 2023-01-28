@@ -80,7 +80,7 @@ Tab:AddButton({
     Name = "ResetCharacter",
     Callback = function()
 
-game:GetService("StarterGui")ConfusedetCore("ResetButtonCallback", true)
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
 
     end
 })
@@ -141,5 +141,15 @@ local Tab = Window:MakeTab({
     Name = "AutoSkiper",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
+
+Tab:AddButton({
+    Name = "FakeRtx",
+    Callback = function()
+
+while wait() do
+    workspace.ClaimRiverResultsGold:FireServer()
+    end
+
+
 })
 
